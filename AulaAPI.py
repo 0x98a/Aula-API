@@ -14,7 +14,6 @@ We are publishing this code for educational purposes only and to circumvent Komb
 We are not responsible for any misuse of this code.
 
 This Issue has been reported to the Kombit A/S team but no response has been received, Therefor we demand that you do not use this code for any illegal purposes.
-These Feuteres are not allowed to be used in any illegal way.
 Exposing Children SSN Numbers: (Social Security Number) or Better known as CPR numbers in Denmark.
 Exposing Phone Numbers
 Exposing Email Addresses
