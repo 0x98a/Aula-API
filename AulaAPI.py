@@ -16,7 +16,7 @@ Exposing Phone Numbers
 Exposing Email Addresses
 Exposing Home Addresses
 ______________________________________________________________________________________________________________
-Project by Wrec & H4xton ~ The Binary.club team is a collective of Danish researches and hackers aged between 7-12 Years old. 
+Project by Wrec & H4xton ~ The Binary.club team is a collective of Danish researches and hackers aged between 15-18 Years old. 
 """
 
 import requests
