@@ -15,7 +15,7 @@ There's really nothing else to say, otherwise 'Kombit' is clearly not giving a c
 
 ReceiveStudenInformation
 ```py
-# Get information about the user, ID (of user) argument needed.
+# Get information about the user, ID (of user) argument needed [Format: String].
 
 def MyFunction():
 
@@ -37,7 +37,7 @@ def MyFunction():
 
 ScrapeMessages
 ```py
-# Get all conversations from by user, ID (of user) argument needed.
+# Get all conversations by user, ID (of user) argument needed [Format: String].
 
 def MyFunction():
 
