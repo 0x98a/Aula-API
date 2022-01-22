@@ -6,7 +6,7 @@ This is a Aula-API Wrapper for.. - Aula!
 Aula is a school system widely used in Denmark, as you can see and read about in the python file, they're shitters...
 This was an active project until recently, when we abandoned it. Therefor this is a 'Discontinued API - Wrapper'.
 If we were to directly clown them, we would include the overall law, they're breaking.. - So here is it :) -
-The company behind Aula, called 'Kombit' is breaking multiple European GDPR Laws, read about them yourself for details.
+The company behind Aula, called 'Kombit' is breaking multiple European GDPR Laws, [read](https://digitalguardian.com/blog/what-gdpr-general-data-protection-regulation-understanding-and-complying-gdpr-data-protection) about them yourself for details.
 
 In the Python file, we include the information you can get from using it, so feel free to read that!
 There's really nothing else to say, otherwise 'Kombit' is clearly not giving a crap about Aula, and its security.
