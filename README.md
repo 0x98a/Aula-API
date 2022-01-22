@@ -1,4 +1,4 @@
-# ReadME...
+# Information :
 
 Hello, thank you for reading this first of all.
 This is a Aula-API Wrapper for.. - Aula!
@@ -11,7 +11,7 @@ The company behind Aula, called 'Kombit' is breaking multiple European GDPR Laws
 In the Python file, we include the information you can get from using it, so feel free to read that!
 There's really nothing else to say, otherwise 'Kombit' is clearly not giving a crap about Aula, and its security.
 
-# Documentation...
+# Documentation :
 
 ReceiveStudenInformation
 ```py
